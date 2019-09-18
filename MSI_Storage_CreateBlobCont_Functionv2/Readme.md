@@ -1,6 +1,6 @@
 # Create blob storage container with a PowerShell function + System Assigned Identity (MSI)
 
-### Assuming that you have a function app with an http triggered function with the code from the example follow the following steps to complete setting up the app:
+### Assuming that you have a function app with an http triggered function with the [code from the example](https://github.com/MiguelFernandez/AzurePowershellFunctionsV2Examples/blob/master/MSI_Storage_CreateBlobCont_Functionv2/MSI_Storage_CreateBlobCont_Functionv2.ps1) follow the following steps to complete setting up the app:
 
 1. Turn on System Assigned Identity in the Function app's Platform features section(don't forget to hit save)
 ![Image1](https://github.com/MiguelFernandez/AzurePowershellFunctionsV2Examples/blob/master/MSI_Storage_CreateBlobCont_Functionv2/img/screen1.PNG)
